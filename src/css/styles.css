@@ -1,0 +1,79 @@
+.app{
+    text-align: center;
+    background-color: #fbfdff;
+    color: rgb(85, 85, 85);
+    font-size: calc(10px + 2vmin);
+    font-weight: 180;
+    min-height: 100vh;
+    position : relative;
+  }
+  li{
+    list-style-type:none;
+  }
+  a {
+    text-decoration: none;
+    color:rgb(117, 119, 119);
+  }
+  a:hover{
+   
+    color: #4fe0f3;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+.container{
+  width:80%;
+  margin:0 auto;
+}
+.row{
+  display:grid;
+}
+.row-meaning{
+  text-align: left;
+}
+
+.grid-1x3{
+  margin-left :2rem;
+  font-size: 1.5rem;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.col{
+  
+  padding-top:2rem;
+}
+.link{
+  padding: 0.3rem 2rem 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(212, 211, 211);
+  color:rgb(88, 88, 88);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  
+}
+.link:hover {
+  background-color: rgb(38, 240, 216);
+  color: #ffffff;
+  transition: background-color 0.5s;
+}
+
+.back-link{
+  position : absolute;
+  padding: 0.2rem 2rem;
+  border-radius: 1rem;
+  background-color: rgb(134, 127, 127);
+  color:#fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 200;
+  right:2rem;
+  bottom : 5rem;
+}
+.meanings{
+  text-align: left;
+}
+.detail{
+  padding-left: 6rem;
+}
